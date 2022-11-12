@@ -2,6 +2,8 @@
 * {
     box-sizing: border-box;
 }
+
+/* target */
 .target {
     max-width: 1000px;
     font-weight: bold;
@@ -144,12 +146,14 @@
 .male .target-content__item-des {
     background-color: #CEE7FB;
 }
+/* アイコン */
 .male-icon, .female-icon {
     font-size: 3rem;
     vertical-align: middle;
     transform: translateY(-5px);
     padding-right: 30px;
 }
+
 @media screen and (max-width:767px) {
     .target__title-upper {
         font-size: 18px;
@@ -161,7 +165,6 @@
         align-items: center;
         flex-direction: column;
     }
-
     .target-content-u {
         margin: 50px 0;
     }
@@ -177,7 +180,6 @@
     .target-content__item {
         margin-right: 0;
     }
-    
     .target-content__item.female {
         margin-bottom: 30px;
     }
